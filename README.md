@@ -1,6 +1,6 @@
  Property Dashboard Prototype
 
-This is my prototype project for the Saraswati College assignment.  
+This is my prototype project. 
 Right now I have only set up the basic structure. More work will be added in the next few days.  
 
  Current Progress (Day 1)
