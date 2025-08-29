@@ -1,24 +1,30 @@
- Property Dashboard Prototype
+This is my prototype project 
+I am building a small dashboard to manage properties, tenants, and rent payments.
 
-This is my prototype project. 
-Right now I have only set up the basic structure. More work will be added in the next few days.  
+Day 1
+  - Created basic Spring Boot setup  
+  - Added starter Application class  
+  - Made placeholder JSP pages (dashboard, properties, rent form, payment list)  
+  - Wrote SQL file with just database creation  
 
- Current Progress (Day 1)
-- Spring Boot project is created  
-- Added starter Application class  
-- Added some JSP pages (Dashboard, Properties, Rent Form, Payment List) 
-- Created one SQL file for database (just made database, tables will come later)  
+ Day 2
+  - Added first entity class (`Property.java`)  
+  - Created `properties` table in SQL  
+  - Updated properties.jsp (added note that DB integration will come later)  
+  - Hibernate/DB connection is not working yet  
 
  Tech Stack
-- Java (Spring Boot)
-- JSP, HTML, CSS
-- MySQL (not fully connected yet)
+- Java (Spring Boot)  
+- JSP, HTML, CSS  
+- MySQL (only basic table right now)  
+- Maven  
 
- How to run (for now)
-1. Open the project in IDE (IntelliJ/Eclipse)  
+How to run (right now)
+1. Open in IDE (IntelliJ/Eclipse)  
 2. Run `Application.java`  
-3. Visit [http://localhost:8080/dashboard](http://localhost:8080/dashboard)  
-  Right now it only displays a simple "Work in Progress" message because I have not connected the database or logic yet. I will add features in the next few days.
-  This is only the starting point. I will be adding database entities, controllers, and real features step by step in the next commits.  
+3. Go to: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)  
 
-Ayushi Bhende  
+At this stage it only shows placeholder pages with “work in progress” notes.  
+Today I learned how to create an entity class and a simple SQL table.  
+I still need to figure out Hibernate and how to display DB data on JSP.  
+That’s the next step I want to try.
