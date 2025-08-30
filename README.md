@@ -1,30 +1,38 @@
-This is my prototype project 
+Property Dashboard Prototype
+
+This is my prototype project  
 I am building a small dashboard to manage properties, tenants, and rent payments.
 
-Day 1
-  - Created basic Spring Boot setup  
+Progress so far
+Day 1  
+  - Basic Spring Boot setup done  
   - Added starter Application class  
-  - Made placeholder JSP pages (dashboard, properties, rent form, payment list)  
-  - Wrote SQL file with just database creation  
+  - Created placeholder JSP pages (dashboard, properties, rent form, payment list)  
+  - Wrote SQL file with only DB creation  
 
- Day 2
-  - Added first entity class (`Property.java`)  
-  - Created `properties` table in SQL  
-  - Updated properties.jsp (added note that DB integration will come later)  
-  - Hibernate/DB connection is not working yet  
+  Day 2
+  - Added Property entity class  
+  - Created properties table in SQL  
+  - Updated properties.jsp with “work in progress” note  
+  - Hibernate connection still not done  
 
+  Day 3
+  - Added Tenant entity class  
+  - Created tenants table in SQL  
+  - Added a new JSP page for tenants (currently placeholder)  
+  - Updated dashboard page to mention Property and Tenant  
+    
  Tech Stack
 - Java (Spring Boot)  
 - JSP, HTML, CSS  
-- MySQL (only basic table right now)  
+- MySQL (basic tables only right now)  
 - Maven  
 
-How to run (right now)
-1. Open in IDE (IntelliJ/Eclipse)  
-2. Run `Application.java`  
-3. Go to: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)  
+How to run (current stage)
+1. Open in IDE (I’m using IntelliJ).  
+2. Run Application.java.  
+3. Go to browser: [http://localhost:8080/dashboard](http://localhost:8080/dashboard).  
 
-At this stage it only shows placeholder pages with “work in progress” notes.  
-Today I learned how to create an entity class and a simple SQL table.  
-I still need to figure out Hibernate and how to display DB data on JSP.  
-That’s the next step I want to try.
+At my side it only shows placeholder JSPs with “work in progress” messages.  
+Database integration not working yet.  
+
