@@ -9,25 +9,29 @@ Basic Spring Boot setup done
 Added starter Application class
 Created placeholder JSP pages (dashboard, properties, rent form, payment list)
 Wrote SQL file with only DB creation
+
 Day 2
 
 Added Property entity class
 Created properties table in SQL
 Updated properties.jsp with “work in progress” note
 Hibernate connection still not done
-Day
+
+Day 3
 
 Added Tenant entity class
 Created tenants table in SQL
 Added a new JSP page for tenants (currently placeholder)
 Updated dashboard page to mention Property + Tenant
 Next step: learn how to show DB data on these pages
+
 Day 4
 
 Added Payment entity class (id, amount, date, tenantName)
 Created payment-form.jsp with simple input form
 Added payment-list.jsp page (currently placeholder)
 Updated SQL with a payments table
+
 Day 5
 
 Updated dashboard.jsp to show all three entities: Property, Tenant, Payment
