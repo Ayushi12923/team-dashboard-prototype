@@ -32,7 +32,7 @@ Day 4
 Day 5  
   - Updated dashboard.jsp to show all three entities: Property, Tenant, Payment  
   - Improved JSP placeholders slightly  
-  - Application is running fine on `localhost:8080/dashboard`  
+  - Application is running fine on `localhost9080/dashboard`  
   - Still struggling with Hibernate DB connection  
 
 Tech Stack
