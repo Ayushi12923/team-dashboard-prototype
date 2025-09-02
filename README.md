@@ -46,7 +46,4 @@ How to run (current stage)
 2. Run Application.java.  
 3. Go to browser: [http://localhost:9080/dashboard](http://localhost:9080/dashboard).  
 
-At this stage, it only shows placeholder JSPs with “work in progress” messages.  
-Database integration is still not working, I plan to try in the next step.  
-
 
